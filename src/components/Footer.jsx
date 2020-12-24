@@ -9,7 +9,9 @@ function Footer() {
 
   return (
     <footer>
-      Copyright {currentYear}. Made with &#128406; by {fName + " " + lName}.
+      <p>
+        Copyright {currentYear}. Made with &#128406; by {fName + " " + lName}.
+      </p>
     </footer>
   );
 }
